@@ -1,5 +1,0 @@
----------DATE-------------------TITLE---------------------LOCATION(Path of the titles)----------------------------------------------------------------
-Thu Mar 27 12:29:11 GMT 2025	hello	location = /data/data/com.termux/files/home/storage/Java_prob/Notepad/storage\Java_prob\Notepad\hello.txt
-Thu Mar 27 12:29:18 GMT 2025	Debayan	location = /data/data/com.termux/files/home/storage/Java_prob/Notepad/storage\Java_prob\Notepad\Debayan.txt
-Thu Mar 27 12:29:25 GMT 2025	Das	location = /data/data/com.termux/files/home/storage/Java_prob/Notepad/storage\Java_prob\Notepad\Das.txt
-Thu Mar 27 12:32:24 GMT 2025	crausser	location = /data/data/com.termux/files/home/storage/Java_prob/Notepad/storage\Java_prob\Notepad\crausser.txt
