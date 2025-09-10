@@ -188,10 +188,15 @@ if page == "Home":
         st.markdown("""
         <div style="font-size: 16px;">
         1. Sensor Analysis: Use manual input, generated dataset, or upload Kaggle dataset
+                    
         2. Symptom Analysis: Describe symptoms in natural language
+                    
         3. Fusion Analysis: Combine both data sources for enhanced prediction
+                    
         4. Dashboard: View analytics and trends
+                    
         5. Data Management: Manage collected data for continuous learning
+                    
         </div>
         """, unsafe_allow_html=True)
         
@@ -207,7 +212,8 @@ if page == "Home":
         </div>
         """, unsafe_allow_html=True)
     
-    st.info("Navigate using the sidebar to explore the different features of this system.\nSource_Code: https://github.com/hi-it-isDebayan/Note")
+    st.info("Navigate using the sidebar to explore the different features of this system" \
+    "Source_Code: https://github.com/hi-it-isDebayan/Note")
 
 # Sensor Analysis (M1) page
 elif page == "Sensor Analysis (M1)":
