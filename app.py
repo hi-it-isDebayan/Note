@@ -187,6 +187,7 @@ if page == "Home":
         st.subheader("How to Use")
         st.markdown("""
         <div style="font-size: 16px;">
+                    
         1. Sensor Analysis: Use manual input, generated dataset, or upload Kaggle dataset            
         2. Symptom Analysis: Describe symptoms in natural language
         3. Fusion Analysis: Combine both data sources for enhanced prediction
