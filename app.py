@@ -72,6 +72,7 @@ init_db()
 st.title("💧 Water-Borne Disease Prediction System")
 st.markdown("""
 <div style="font-size: 18px;">
+
 This system predicts water-borne diseases in rural areas of East India using:
 1. Sensor data analysis (pH, turbidity, TDS, etc.)
 2. Symptom analysis through natural language processing
