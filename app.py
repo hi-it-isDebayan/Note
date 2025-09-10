@@ -1186,7 +1186,7 @@ st.sidebar.markdown("""
     transition: all 0.2s ease-in-out;
 }
 .prototype-link:hover {
-    background-color: #0369a1;
+    background-color: #d9999;
 }
 </style>
 
