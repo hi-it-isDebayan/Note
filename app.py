@@ -1162,14 +1162,7 @@ st.sidebar.markdown("""
     color: #0f172a;
     margin-bottom: 8px;
 }
-.sidebar-box ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0;
-}
-.sidebar-box li {
-    padding: 2px 0;
-}
+
 .team-name {
     font-weight: bold;
     color: #0284c7;
@@ -1186,13 +1179,5 @@ Please contact the development team.<br>
 
 <span class="team-name">👨‍💻 Made by Team @ Code Catalysts</span>
 
-<ul>
-<li>• Debayan Das</li>
-<li>• Akash Chakraborty</li>
-<li>• Angana Das</li>
-<li>• Aritri</li>
-<li>• Agni</li>
-<li>• Abhirup</li>
-</ul>
 </div>
 """, unsafe_allow_html=True)
