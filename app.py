@@ -101,7 +101,7 @@ st.markdown("""
     border: 1px solid #e5e7eb;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
     color: #374151;
-    text-align: center;
+    # text-align: center;
     line-height: 1.6;
     margin-bottom: 25px;
     font-family: 'Segoe UI', sans-serif;
