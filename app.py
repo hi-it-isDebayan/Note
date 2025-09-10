@@ -203,10 +203,11 @@ if page == "Home":
         - Tribe-specific analytics
         - Alert system for high-risk situations
         - Mobile-friendly interface
+                    
         </div>
         """, unsafe_allow_html=True)
     
-    st.info("Navigate using the sidebar to explore the different features of this system.")
+    st.info("Navigate using the sidebar to explore the different features of this system.\nSource_Code: https://github.com/hi-it-isDebayan/Note")
 
 # Sensor Analysis (M1) page
 elif page == "Sensor Analysis (M1)":
