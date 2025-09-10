@@ -1176,7 +1176,7 @@ st.sidebar.markdown("""
     text-align: center;
     color: #0369a1;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     margin-top: 6px;
 }
@@ -1193,7 +1193,7 @@ st.sidebar.markdown("""
 <span class="team-name">👨‍💻 Made by Team @ Code Catalysts</span>
 
 <p style="text-align:center;">
-<a class="prototype-link" href="https://www.figma.com/proto/9PunVV8lXKnZenfYET1QWv/Sih-001?page-id=0%3A1&node-id=19-612&viewport=1412%2C-2018%2C0.28&t=loNok5QDqSIHqHZw-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=19%3A612" target="_blank">🔗 View Figma Prototype</a>
+<a class="prototype-link" href="https://www.figma.com/proto/9PunVV8lXKnZenfYET1QWv/Sih-001?page-id=0%3A1&node-id=19-612&viewport=1412%2C-2018%2C0.28&t=loNok5QDqSIHqHZw-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=19%3A612" target="_blank">View Figma Prototype</a>
 </p>
 </div>
 """, unsafe_allow_html=True)
