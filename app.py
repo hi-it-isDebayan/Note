@@ -1146,38 +1146,58 @@ st.sidebar.divider()
 st.sidebar.markdown("""
 <style>
 .sidebar-box {
-    background-color: #f1f5f9;
-    border-radius: 12px;
-    padding: 15px;
+    background: linear-gradient(145deg, #f8fafc, #f1f5f9);
+    border-radius: 14px;
+    padding: 18px;
     font-size: 15px;
     font-family: 'Segoe UI', sans-serif;
-    line-height: 1.5;
+    line-height: 1.6;
     color: #1e293b;
     border: 1px solid #e2e8f0;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
-    margin-top: 15px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.06);
+    margin-top: 20px;
 }
 .sidebar-box h4 {
     text-align: center;
     color: #0f172a;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
 }
-
 .team-name {
-    font-weight: bold;
+    font-weight: 600;
     color: #0284c7;
-    # text-align: center;
+    text-align: center;
     display: block;
+    margin: 12px 0;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.prototype-link {
+    display: block;
+    text-align: center;
+    background-color: #0284c7;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 8px;
     margin-top: 10px;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
+}
+.prototype-link:hover {
+    background-color: #0369a1;
 }
 </style>
 
 <div class="sidebar-box">
-💬 <b>For questions or support:</b><br>
-Please contact the development team.<br>
-<i>This is a prototype for demonstration purposes.</i>
+<h4>💬 For questions or support</h4>
+<p>Please contact the development team.<br>
+<i>This is a prototype for demonstration purposes.</i></p>
 
 <span class="team-name">👨‍💻 Made by Team @ Code Catalysts</span>
 
+<a class="prototype-link" href="https://www.figma.com/proto/9PunVV8lXKnZenfYET1QWv/Sih-001?page-id=0%3A1&node-id=19-612&viewport=1412%2C-2018%2C0.28&t=loNok5QDqSIHqHZw-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=19%3A612" target="_blank">🔗 View Figma Prototype</a>
 </div>
 """, unsafe_allow_html=True)
+
