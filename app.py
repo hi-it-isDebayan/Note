@@ -208,73 +208,53 @@ if page == "Home":
     col1, col2 = st.columns(2)
     
     with col1:
+        st.subheader("System Overview")
         st.markdown("""
-        <style>
-        .section-box {
-            background-color: #f9fafb;
-            padding: 15px;
-            border-radius: 12px;
-            border: 1px solid #e5e7eb;
-            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
-            font-family: 'Segoe UI', sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-        .highlight {
-            font-weight: bold;
-            color: #ef4444;
-        }
-        </style>
-
-        <div class="section-box">
-        <h4>🔎 System Overview</h4>
-
+        <div style="font-size: 16px;">
         This system uses three integrated approaches:
-
-        <ol>
-        <li><span class="highlight">📊 Sensor Analysis (M1):</span><br>
-        &nbsp;&nbsp;- <b>Input:</b> Water quality parameters (pH, turbidity, TDS, etc.)<br>
-        &nbsp;&nbsp;- <b>Output:</b> Risk score and Safe/Unsafe classification</li>
-
-        <li><span class="highlight">🩺 Symptom Analysis (M2):</span><br>
-        &nbsp;&nbsp;- <b>Input:</b> Natural language description of patient symptoms<br>
-        &nbsp;&nbsp;- <b>Output:</b> Tokenized symptoms and disease probabilities</li>
-
-        <li><span class="highlight">🔗 Fusion Analysis:</span><br>
-        &nbsp;&nbsp;- Combines both sensor and symptom data<br>
-        &nbsp;&nbsp;- Provides enhanced predictions<br>
-        &nbsp;&nbsp;- Updates dataset for continuous learning</li>
-        </ol>
+        
+        1. Sensor Analysis (M1): 
+           - Input: Water quality parameters (pH, turbidity, TDS, etc.)
+           - Output: Risk score and Safe/Unsafe classification
+        
+        2. Symptom Analysis (M2):
+           - Input: Natural language description of patient symptoms
+           - Output: Tokenized symptoms and disease probabilities
+    
+        3. Fusion Analysis:
+           - Combines both sensor and symptom data
+           - Provides enhanced predictions
+           - Updates dataset for continuous learning
         </div>
         """, unsafe_allow_html=True)
-
+        
     with col2:
+        st.subheader("How to Use")
         st.markdown("""
-        <div class="section-box">
-        <h4>🛠 How to Use</h4>
-        <ol>
-        <li>📊 <b>Sensor Analysis:</b> Use manual input, generated dataset, or upload Kaggle dataset</li>
-        <li>🩺 <b>Symptom Analysis:</b> Describe symptoms in natural language</li>
-        <li>🔗 <b>Fusion Analysis:</b> Combine both data sources for enhanced prediction</li>
-        <li>📈 <b>Dashboard:</b> View analytics and trends</li>
-        <li>🗂 <b>Data Management:</b> Manage collected data for continuous learning</li>
-        </ol>
-        </div>
-
-        <div class="section-box">
-        <h4>⭐ Key Features</h4>
-        <ul>
-        <li>🧠 Natural language processing for symptoms</li>
-        <li>🔄 Continuous learning capabilities</li>
-        <li>👥 Tribe-specific analytics</li>
-        <li>🚨 Alert system for high-risk situations</li>
-        <li>📱 Mobile-friendly interface</li>
-        </ul>
+        <div style="font-size: 16px;">
+                    
+        1. Sensor Analysis: Use manual input, generated dataset, or upload Kaggle dataset            
+        2. Symptom Analysis: Describe symptoms in natural language
+        3. Fusion Analysis: Combine both data sources for enhanced prediction
+        4. Dashboard: View analytics and trends
+        5. Data Management: Manage collected data for continuous learning
         </div>
         """, unsafe_allow_html=True)
-
-    st.info("Navigate using the sidebar to explore the different features of this system.  \n\n**Source Code:** [GitHub Repo](https://github.com/hi-it-isDebayan/Note)")
+        
+        st.subheader("Key Features")
+        st.markdown("""
+        <div style="font-size: 16px;">
+                    
+        - Natural language processing for symptoms
+        - Continuous learning capabilities
+        - Tribe-specific analytics
+        - Alert system for high-risk situations
+        - Mobile-friendly interface
+                    
+        </div>
+        """, unsafe_allow_html=True)
+    
+    st.info("Navigate using the sidebar to explore the different features of this system  $$Source_Code: https://github.com/hi-it-isDebayan/Note")
 
 # Sensor Analysis (M1) page
 elif page == "Sensor Analysis (M1)":
