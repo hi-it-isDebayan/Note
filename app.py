@@ -166,6 +166,7 @@ if page == "Home":
         st.subheader("System Overview")
         st.markdown("""
         <div style="font-size: 16px;">
+        
         This system uses three integrated approaches:
         
         1. Sensor Analysis (M1): 
