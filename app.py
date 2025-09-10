@@ -1177,7 +1177,7 @@ st.sidebar.markdown("""
     display: block;
     text-align: center;
     background-color: #0284c7;
-    color: white;
+    color: green;
     text-decoration: none;
     padding: 8px 12px;
     border-radius: 8px;
