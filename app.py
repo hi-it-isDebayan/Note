@@ -199,6 +199,7 @@ if page == "Home":
         st.subheader("Key Features")
         st.markdown("""
         <div style="font-size: 16px;">
+                    
         - Natural language processing for symptoms
         - Continuous learning capabilities
         - Tribe-specific analytics
