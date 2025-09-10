@@ -1144,18 +1144,55 @@ elif page == "Data Management":
 # Footer with larger font
 st.sidebar.divider()
 st.sidebar.markdown("""
-<div style="font-size: 16px;">
-For questions or support, please contact the development team.<br>
-This is a prototype for demonstration purposes.
+<style>
+.sidebar-box {
+    background-color: #f1f5f9;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.5;
+    color: #1e293b;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
+    margin-top: 15px;
+}
+.sidebar-box h4 {
+    text-align: center;
+    color: #0f172a;
+    margin-bottom: 8px;
+}
+.sidebar-box ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+.sidebar-box li {
+    padding: 2px 0;
+}
+.team-name {
+    font-weight: bold;
+    color: #0284c7;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+</style>
 
-                           
-#Made by Team@Code Catalysts
-1) Debayan Das
-2) Akash Chakraborty
-3) Angana Das
-4) Aritri 
-5) Agni
-6) Abhirup
-                    
+<div class="sidebar-box">
+💬 <b>For questions or support:</b><br>
+Please contact the development team.<br>
+<i>This is a prototype for demonstration purposes.</i>
+
+<span class="team-name">👨‍💻 Made by Team @ Code Catalysts</span>
+
+<ul>
+<li>• Debayan Das</li>
+<li>• Akash Chakraborty</li>
+<li>• Angana Das</li>
+<li>• Aritri</li>
+<li>• Agni</li>
+<li>• Abhirup</li>
+</ul>
 </div>
 """, unsafe_allow_html=True)
