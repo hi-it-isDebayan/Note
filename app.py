@@ -1155,7 +1155,11 @@ st.sidebar.markdown("""
     color: #1e293b;
     border: 1px solid #d1d5db;
     margin-top: 18px;
+    text-align: center;
 }
+.sidebar-box p {
+    text-align:center;    
+}      
 .sidebar-box h4 {
     text-align: center;
     color: #0f172a;
