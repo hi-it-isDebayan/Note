@@ -1076,7 +1076,7 @@ st.sidebar.markdown("""
 For questions or support, please contact the development team.<br>
 This is a prototype for demonstration purposes.
                     
-###Made by Team@Code Catalysts
+#Made by Team@Code Catalysts
 
 1) Debayan Das
 2) Akash Chakraborty
