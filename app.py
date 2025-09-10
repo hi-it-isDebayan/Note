@@ -165,52 +165,23 @@ if page == "Home":
     with col1:
         st.subheader("System Overview")
         st.markdown("""
-            <style>
-            .custom-box {
-                font-size: 16px;
-                background-color: #f9f9f9;
-                padding: 15px;
-                border-radius: 12px;
-                border: 1px solid #ddd;
-                box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
-                line-height: 1.6;
-                font-family: 'Segoe UI', sans-serif;
-            }
-            .custom-box h4 {
-                color: #1f77b4;
-                margin-bottom: 8px;
-            }
-            .custom-box li {
-                margin-bottom: 6px;
-            }
-            .highlight {
-                font-weight: bold;
-                color: #ff4b4b;
-            }
-            </style>
-
-            <div class="custom-box">
-                <h4>🔎 System Overview</h4>
-
-                This system uses three integrated approaches:
-
-                <ol>
-                    <li><span class="highlight">Sensor Analysis (M1):</span><br>
-                    &nbsp;&nbsp;- <b>Input:</b> Water quality parameters (pH, turbidity, TDS, etc.)<br>
-                    &nbsp;&nbsp;- <b>Output:</b> Risk score and Safe/Unsafe classification</li>
-
-                    <li><span class="highlight">Symptom Analysis (M2):</span><br>
-                    &nbsp;&nbsp;- <b>Input:</b> Natural language description of patient symptoms<br>
-                    &nbsp;&nbsp;- <b>Output:</b> Tokenized symptoms and disease probabilities</li>
-
-                    <li><span class="highlight">Fusion Analysis:</span><br>
-                    &nbsp;&nbsp;- Combines both sensor and symptom data<br>
-                    &nbsp;&nbsp;- Provides enhanced predictions<br>
-                    &nbsp;&nbsp;- Updates dataset for continuous learning</li>
-                </ol>
-            </div>
-            """, unsafe_allow_html=True)
-
+        <div style="font-size: 16px;">
+        This system uses three integrated approaches:
+        
+        1. Sensor Analysis (M1): 
+           - Input: Water quality parameters (pH, turbidity, TDS, etc.)
+           - Output: Risk score and Safe/Unsafe classification
+        
+        2. Symptom Analysis (M2):
+           - Input: Natural language description of patient symptoms
+           - Output: Tokenized symptoms and disease probabilities
+    
+        3. Fusion Analysis:
+           - Combines both sensor and symptom data
+           - Provides enhanced predictions
+           - Updates dataset for continuous learning
+        </div>
+        """, unsafe_allow_html=True)
         
     with col2:
         st.subheader("How to Use")
