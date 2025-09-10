@@ -254,7 +254,35 @@ if page == "Home":
         </div>
         """, unsafe_allow_html=True)
     
-    st.info("Navigate using the sidebar to explore the different features of this system  $$Source_Code: https://github.com/hi-it-isDebayan/Note")
+        st.markdown("""
+        <style>
+        .info-box {
+            background-color: #e0f2fe;
+            color: #075985;
+            border-left: 6px solid #0284c7;
+            padding: 14px 18px;
+            border-radius: 10px;
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.04);
+            margin-top: 15px;
+        }
+        .info-box a {
+            color: #0c4a6e;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .info-box a:hover {
+            text-decoration: underline;
+        }
+        </style>
+
+        <div class="info-box">
+        💡 <b>Tip:</b> Navigate using the sidebar to explore the different features of this system.<br>
+        🔗 <b>Source Code:</b> <a href="https://github.com/hi-it-isDebayan/Note" target="_blank">GitHub Repository</a>
+        </div>
+        """, unsafe_allow_html=True)
 
 # Sensor Analysis (M1) page
 elif page == "Sensor Analysis (M1)":
