@@ -169,6 +169,7 @@ if page == "Home":
         
         This system uses three integrated approaches:
         
+                    
             1. Sensor Analysis (M1): 
             - Input: Water quality parameters (pH, turbidity, TDS, etc.)
             - Output: Risk score and Safe/Unsafe classification
