@@ -69,7 +69,28 @@ def init_db():
 init_db()
 
 # Title and description with larger font
-st.title("💧 Water-Borne Disease Prediction System")
+st.markdown("""
+<style>
+.title-box {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0ea5e9;
+    font-family: 'Segoe UI', sans-serif;
+    margin-bottom: 10px;
+}
+.subtitle {
+    text-align: center;
+    font-size: 20px;
+    color: #334155;
+    margin-bottom: 25px;
+}
+</style>
+
+<div class="title-box">💧 Water-Borne Disease Prediction System</div>
+<div class="subtitle">An AI-powered system for sensor-based, symptom-based, and fusion analysis of water safety</div>
+""", unsafe_allow_html=True)
+
 st.markdown("""
 <div style="font-size: 18px;">
 
