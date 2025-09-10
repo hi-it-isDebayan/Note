@@ -92,14 +92,37 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-<div style="font-size: 18px;">
+<style>
+.description-box {
+    background-color: #f9fafb;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+    color: #374151;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    font-family: 'Segoe UI', sans-serif;
+}
+.description-box ol {
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 8px 0 0 0;
+}
+</style>
 
+<div class="description-box">
 This system predicts water-borne diseases in rural areas of East India using:
-1. Sensor data analysis (pH, turbidity, TDS, etc.)
-2. Symptom analysis through natural language processing
-3. Fusion of both approaches for enhanced accuracy
+<ol>
+<li><b>Sensor data analysis</b> (pH, turbidity, TDS, etc.)</li>
+<li><b>Symptom analysis</b> through natural language processing</li>
+<li><b>Fusion of both approaches</b> for enhanced accuracy</li>
+</ol>
 </div>
 """, unsafe_allow_html=True)
+
 
 # Initialize session state for data storage
 if 'continuous_learning_data' not in st.session_state:
