@@ -1173,7 +1173,7 @@ st.sidebar.markdown("""
 .team-name {
     font-weight: bold;
     color: #0284c7;
-    text-align: center;
+    # text-align: center;
     display: block;
     margin-top: 10px;
 }
