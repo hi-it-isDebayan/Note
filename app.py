@@ -166,22 +166,20 @@ if page == "Home":
         st.subheader("System Overview")
         st.markdown("""
         <div style="font-size: 16px;">
-        
         This system uses three integrated approaches:
-        
-                    
-            1. Sensor Analysis (M1): 
-            - Input: Water quality parameters (pH, turbidity, TDS, etc.)
-            - Output: Risk score and Safe/Unsafe classification
-            
-            2. Symptom Analysis (M2):
-            - Input: Natural language description of patient symptoms
-            - Output: Tokenized symptoms and disease probabilities
-            
-            3. Fusion Analysis:
-            - Combines both sensor and symptom data
-            - Provides enhanced predictions
-            - Updates dataset for continuous learning
+        \n
+        1. Sensor Analysis (M1): 
+           - Input: Water quality parameters (pH, turbidity, TDS, etc.)
+           - Output: Risk score and Safe/Unsafe classification
+        \n
+        2. Symptom Analysis (M2):
+           - Input: Natural language description of patient symptoms
+           - Output: Tokenized symptoms and disease probabilities
+        \n
+        3. Fusion Analysis:
+           - Combines both sensor and symptom data
+           - Provides enhanced predictions
+           - Updates dataset for continuous learning
         </div>
         """, unsafe_allow_html=True)
         
